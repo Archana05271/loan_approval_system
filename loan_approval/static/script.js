@@ -1,0 +1,1 @@
+console.log("Loan Prediction Project Loaded Successfully");

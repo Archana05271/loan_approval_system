@@ -1,0 +1,170 @@
+/* =========================================
+   MODERN MINIMAL BANKING THEME
+========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* MAIN APP */
+
+.stApp {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+/* REMOVE EXTRA GAP */
+
+.block-container {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* HEADER */
+
+[data-testid="stHeader"] {
+    background: transparent;
+}
+
+/* SIDEBAR */
+
+[data-testid="stSidebar"] {
+    background: #5b1e5c;
+}
+
+[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* TITLES */
+
+h1 {
+    color: #5b1e5c !important;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    color: #5b1e5c !important;
+}
+
+/* TEXT */
+
+p, label, span {
+    color: #444 !important;
+    font-size: 16px;
+}
+
+/* CARD DESIGN */
+
+.card {
+    background: white;
+    border-radius: 18px;
+    padding: 25px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.12);
+}
+
+/* BUTTON */
+
+.stButton > button {
+    background: #5b1e5c;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 240px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    background: #7b2e7d;
+    transform: scale(1.02);
+}
+
+/* INPUT FIELDS */
+
+.stTextInput input,
+.stNumberInput input,
+.stSelectbox div,
+textarea {
+    border-radius: 10px !important;
+    border: 1px solid #ddd !important;
+    background: white !important;
+    color: #222 !important;
+}
+
+/* METRIC CONTAINERS */
+
+[data-testid="metric-container"] {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+}
+
+/* SUCCESS */
+
+.stSuccess {
+    border-radius: 10px;
+    background: #e8f5e9 !important;
+}
+
+/* ERROR */
+
+.stError {
+    border-radius: 10px;
+}
+
+/* WARNING */
+
+.stWarning {
+    border-radius: 10px;
+}
+
+/* DATAFRAME */
+
+[data-testid="stDataFrame"] {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* PLOTLY CHART */
+
+.js-plotly-plot {
+    background: white !important;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* IMAGE */
+
+img {
+    border-radius: 18px;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5b1e5c;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #eee;
+}
